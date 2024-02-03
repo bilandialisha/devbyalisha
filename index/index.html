@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="template3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="page1" id="home">
+            <div class="nav">
+                <h2 class="heading">Alisha Bilandi</h2>
+                <div class="elements">
+                    <a href="#home" class="e1">Home</a>
+                    <a href="#about" class="e2">About</a>
+                    <a href="#skills" class="e3">Skills</a>
+                    <a href="#projects" class="e4">Projects</a>
+                    <a href="#contact" class="e5">Contact</a>
+                </div>
+                <button class="btn">Let's Talk</button>
+            </div>
+
+            <div class="home">
+                <div class="content">
+                    <h1 class="heading2">Hi! I Am Alisha <span>Bilandi</span></h1>
+                    <h3 class="heading3"><span class="text first-text"></span></h3>
+                    <div class="btns">
+                        <button class="btn1">Hire Me</button>
+                        <button class="btn2">Download CV</button>
+                    </div>
+                    <div class="logos"></div>
+                </div>
+            
+                <div class="image">
+                    <img src="lol2.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="page2" id="about">
+            <div class="image2">
+                <img src="ladki.png" alt="">
+            </div>
+            <div class="content2">
+                <h3 class="about">About Me</h3>
+                <p class="info">Hi! I Am Alisha Bilandi, currently pursuing my Bachelor's in Computer Science from Chitkara University.I am a Web Developer and a Web Designer , made few projects. Also I am working on my problem solving skills by learning DSA.
+                </p>
+                <div class="grid-container">
+                    <div class="grid-item"><img src="html.svg" alt="" height="50px" width="50px"> <br> <span>HTML</span></div>
+                    <div class="grid-item"><img src="css.svg" alt="" height="50px" width="50px"> <br> <span>CSS</span></div>
+                    <div class="grid-item"><img src="javascript.svg" alt="" height="50px" width="50px"> <br> <span>JavaScript</span></div>
+                    <div class="grid-item"><img src="c.svg" alt="" height="50px" width="50px"> <br> <span>C++</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote"><p>Design is a solution to a problem. Art is a question to a problem.</p></div>
+
+        <div class="page3" id="skills">
+            <div id="heading2">
+                <h1>Services.</h1>
+                <h3>Here are some services we provided!!!</h3>
+            </div>
+            <div id="grid2">
+                <div class="g1" id="wd"><i class='bx bx-laptop'></i><br><h2>Web Development</h2><br><h4>I help in developing fully functional websites.</h4></div>
+                <div class="g1" id="ws"><i class='bx bxs-pencil'></i><br><h2>Web Design</h2><br><h4>I help in designing beautiful-ly looking websites.</h4></div>
+                <div class="g1" id="ps"><i class='bx bxs-brain'></i><br><h2>Problem Solving</h2><br><h4>Deal with complex data structures and algorithms.</h4></div>
+            </div>
+        </div>
+
+        <div class="page4" id="projects">
+            <div id="heading3">
+                <h1>Projects.</h1>
+                <h3>Here are some Projects we have worked on!!!</h3>
+            </div>
+            <div id="grid3">
+                <div class="g2">
+                    <div class="info3">
+                        <h4 class="heading6">Quiz Game</h4>
+                        <p class="para">I have made a quiz game for better knowledge of students using Python.</p>
+                    </div>
+                    <div class="image4">
+                        <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/0e/2a/c7/0e2ac7e6-5328-0949-a339-af839602a7d4/source/512x512bb.jpg" alt="">
+                    </div>
+                </div>
+                <div class="g2">
+                    <div class="info3">
+                        <h4 class="heading6">Tribute Page</h4>
+                        <p class="para">I have made template using Web Development and gave Tribute to Indian Army. </p>
+                    </div>
+                    <div class="image4">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                </div>
+                <div class="g2">
+                    <div class="info3">
+                        <h4 class="heading6">Tic Tac Toe</h4>
+                        <p class="para">I have made some brain games like tic tac toe and it is easy to play.</p>
+                    </div>
+                    <div class="image4">
+                        <img src="https://play-lh.googleusercontent.com/zPxLgj5nvl20ahJV7aFC6S5mD8kii5CEEDj25j1P9CYAfXL9sdDuO-8eES0r4DhJHrU" alt="">
+                    </div>
+                </div>
+                <div class="g2"><div class="info3">
+                    <h4 class="heading6">Portfolio's Design</h4>
+                    <p class="para">I have made some portfolio's designs using Web Designing.</p>
+                </div>
+                <div class="image4">
+                    <img src="https://web-images.pixpa.com/b3SMTeHG-AhN6SdnlfFEUANpJ_bhTByQQ5Sswp_2tSU/rs:fit:1200:0/q:80/aHR0cHM6Ly9zdHVkaW9hc3NldHMucGl4cGEuY29tLy9waXhwYWNvbS9pbWFnZXMvc3R1ZGVudHMvcGl4cGEtc3R1ZGVudC1wb3J0Zm9saW8taGVyby5qcGc=" alt="">
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="page5" id="contact">
+            <div class="heading7">
+                <h1>Contact Me</h1>
+                <p>I will be Glad to Answer Your Questions</p>
+            </div>
+            <div class="form1">
+                <form action="">
+                    <input type="text" placeholder="Name" required>
+                    <br>
+                    <input type="email" placeholder="Email adderess" required>
+                    <br>
+                    <input type="text" placeholder="Subject" required>
+                    <br>
+                    <textarea name="lol" id="" cols="16" rows="3" style="max-width: 100%;"></textarea>
+                    <br>
+                    <div class="sub-btn">
+                        <button type="submit" id="btn9">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="logo">
+                <p class="logo1">I Am Social</p>
+                <div class="logo2">
+                    <div class="mail"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=alishabilandi@gmail.com" target="_blank"><img src="gmail.svg" alt="" height="50px" width="50px"></a></div>
+                    <div class="mail"><a href="https://github.com/bilandialisha" target="_blank"><img src="github.svg" alt="" height="50px" width="50px"></a>
+                    </div>
+                    <div class="mail"><a href="http://www.linkedin.com/in/alisha-bilandi-735799268" target="_blank"><img src="linkedin.svg" alt="" height="50px" width="50px"></a></div>
+                    <div class="mail"><a href="https://www.instagram.com/" target="_blank"><img src="instagram.svg" alt="" height="50px" width="50px"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
